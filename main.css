@@ -13,6 +13,8 @@ html {
 .nav {
   margin: .3em;
   padding: .6em;
+  background-color: #79756f;
+  border: 3px soild #595652;
 }
 
 .nav li {
@@ -20,5 +22,7 @@ html {
   margin: .3em;
   padding:.5em .75em;
   background-color: #713837;
+  border: 3px solid #f33;
+
 
 }
