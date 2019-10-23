@@ -1,31 +1,55 @@
 html {
   box-sizing: border-box;
-  background-color: #dbd6cf;
-  font-family: 'Bevan', sans-serif;
   line-height: 1.5;
-  color: #fff;
+  font-family: sans-serif;
+  background-color: #dbd6cf;
 }
 
-*,*::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-.nav {
-  margin: .3em;
-  padding: .6em;
-  background-color: #79756f;
-  border: 3px soild #595652;
-  border-radius: 10px;
-  text-align:
+body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.nav li {
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Bevan, serif;
+}
+
+header {
   display: inline-block;
-  font-family: sans-serif;
   margin: .3em;
-  padding:.5em .75em;
+  padding: .5em .75em;
+  background-color: #79756f;
+  border: 3px solid #595652;
+  border-radius: 10px;
+  width: auto;
+}
+
+.nav > li {
+  margin: .3em;
+  padding: .6em;
+  list-style-type: none;
+  color: #fff;
+  display: inline-block;
+  width: auto;
   background-color: #713837;
-  border: 3px solid #f33;
+  border-color: #713837;
   border-radius: 10px;
   text-align: center;
+}
+
+li a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav li > a:hover {
+  background-color: #f33;
+  border-color: #f33;
 }
